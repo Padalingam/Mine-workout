@@ -16,6 +16,7 @@ import UIKit
     var items: [String] = ["Items 1", "Items 2", "Items 4"] {
         didSet{
             setUpLabels()
+            // Comment
         }
     }
     func setUpView() {
