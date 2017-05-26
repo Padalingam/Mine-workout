@@ -12,6 +12,18 @@
 		510C52AE1ED28EEC0087F7C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510C52AC1ED28EEC0087F7C0 /* Main.storyboard */; };
 		510C52B01ED28EEC0087F7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510C52AF1ED28EEC0087F7C0 /* Assets.xcassets */; };
 		510C52B31ED28EEC0087F7C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510C52B11ED28EEC0087F7C0 /* LaunchScreen.storyboard */; };
+		510C52BB1ED299D50087F7C0 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510C52BA1ED299D50087F7C0 /* StackViewController.swift */; };
+		510C52BD1ED2A9B50087F7C0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510C52BC1ED2A9B50087F7C0 /* TableViewController.swift */; };
+		510C52BF1ED3EB750087F7C0 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510C52BE1ED3EB750087F7C0 /* DrawingView.swift */; };
+		510C52C11ED676240087F7C0 /* LayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510C52C01ED676230087F7C0 /* LayerViewController.swift */; };
+		516150761ED6B75000ECF758 /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150751ED6B75000ECF758 /* AnimateViewController.swift */; };
+		516150781ED6FFD600ECF758 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150771ED6FFD600ECF758 /* TransitionViewController.swift */; };
+		5161507A1ED7DFA400ECF758 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150791ED7DFA400ECF758 /* SearchViewController.swift */; };
+		5161507C1ED7EC1B00ECF758 /* SearchViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5161507B1ED7EC1B00ECF758 /* SearchViewControllerOne.swift */; };
+		5161507E1ED7FA1800ECF758 /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5161507D1ED7FA1800ECF758 /* GradientViewController.swift */; };
+		516150821ED7FD2A00ECF758 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150811ED7FD2A00ECF758 /* UIViewX.swift */; };
+		516150841ED80B2F00ECF758 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150831ED80B2F00ECF758 /* SegmentedControl.swift */; };
+		516150861ED81FC100ECF758 /* CustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150851ED81FC100ECF758 /* CustomTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		510C52AF1ED28EEC0087F7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		510C52B21ED28EEC0087F7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		510C52B41ED28EEC0087F7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510C52BA1ED299D50087F7C0 /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		510C52BC1ED2A9B50087F7C0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		510C52BE1ED3EB750087F7C0 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		510C52C01ED676230087F7C0 /* LayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerViewController.swift; sourceTree = "<group>"; };
+		516150751ED6B75000ECF758 /* AnimateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
+		516150771ED6FFD600ECF758 /* TransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		516150791ED7DFA400ECF758 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5161507B1ED7EC1B00ECF758 /* SearchViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewControllerOne.swift; sourceTree = "<group>"; };
+		5161507D1ED7FA1800ECF758 /* GradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
+		516150811ED7FD2A00ECF758 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		516150831ED80B2F00ECF758 /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		516150851ED81FC100ECF758 /* CustomTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +78,24 @@
 		510C52A71ED28EEC0087F7C0 /* DermWritePractice */ = {
 			isa = PBXGroup;
 			children = (
+				516150811ED7FD2A00ECF758 /* UIViewX.swift */,
 				510C52A81ED28EEC0087F7C0 /* AppDelegate.swift */,
 				510C52AA1ED28EEC0087F7C0 /* ViewController.swift */,
 				510C52AC1ED28EEC0087F7C0 /* Main.storyboard */,
 				510C52AF1ED28EEC0087F7C0 /* Assets.xcassets */,
 				510C52B11ED28EEC0087F7C0 /* LaunchScreen.storyboard */,
 				510C52B41ED28EEC0087F7C0 /* Info.plist */,
+				510C52BA1ED299D50087F7C0 /* StackViewController.swift */,
+				510C52BC1ED2A9B50087F7C0 /* TableViewController.swift */,
+				510C52BE1ED3EB750087F7C0 /* DrawingView.swift */,
+				510C52C01ED676230087F7C0 /* LayerViewController.swift */,
+				516150751ED6B75000ECF758 /* AnimateViewController.swift */,
+				516150771ED6FFD600ECF758 /* TransitionViewController.swift */,
+				516150791ED7DFA400ECF758 /* SearchViewController.swift */,
+				5161507B1ED7EC1B00ECF758 /* SearchViewControllerOne.swift */,
+				5161507D1ED7FA1800ECF758 /* GradientViewController.swift */,
+				516150831ED80B2F00ECF758 /* SegmentedControl.swift */,
+				516150851ED81FC100ECF758 /* CustomTab.swift */,
 			);
 			path = DermWritePractice;
 			sourceTree = "<group>";
@@ -137,8 +173,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510C52BB1ED299D50087F7C0 /* StackViewController.swift in Sources */,
+				5161507E1ED7FA1800ECF758 /* GradientViewController.swift in Sources */,
 				510C52AB1ED28EEC0087F7C0 /* ViewController.swift in Sources */,
+				516150761ED6B75000ECF758 /* AnimateViewController.swift in Sources */,
+				5161507A1ED7DFA400ECF758 /* SearchViewController.swift in Sources */,
+				516150821ED7FD2A00ECF758 /* UIViewX.swift in Sources */,
+				516150781ED6FFD600ECF758 /* TransitionViewController.swift in Sources */,
+				510C52C11ED676240087F7C0 /* LayerViewController.swift in Sources */,
+				516150861ED81FC100ECF758 /* CustomTab.swift in Sources */,
+				510C52BF1ED3EB750087F7C0 /* DrawingView.swift in Sources */,
+				516150841ED80B2F00ECF758 /* SegmentedControl.swift in Sources */,
 				510C52A91ED28EEC0087F7C0 /* AppDelegate.swift in Sources */,
+				510C52BD1ED2A9B50087F7C0 /* TableViewController.swift in Sources */,
+				5161507C1ED7EC1B00ECF758 /* SearchViewControllerOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nalashaa.DermWritePractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -282,6 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nalashaa.DermWritePractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -304,6 +354,7 @@
 				510C52B91ED28EEC0087F7C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
