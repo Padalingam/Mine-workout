@@ -24,6 +24,8 @@
 		516150821ED7FD2A00ECF758 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150811ED7FD2A00ECF758 /* UIViewX.swift */; };
 		516150841ED80B2F00ECF758 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150831ED80B2F00ECF758 /* SegmentedControl.swift */; };
 		516150861ED81FC100ECF758 /* CustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150851ED81FC100ECF758 /* CustomTab.swift */; };
+		516150881ED8370600ECF758 /* CGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150871ED8370600ECF758 /* CGViewController.swift */; };
+		5161508A1ED839EA00ECF758 /* MyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516150891ED839EA00ECF758 /* MyTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		516150811ED7FD2A00ECF758 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		516150831ED80B2F00ECF758 /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		516150851ED81FC100ECF758 /* CustomTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTab.swift; sourceTree = "<group>"; };
+		516150871ED8370600ECF758 /* CGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGViewController.swift; sourceTree = "<group>"; };
+		516150891ED839EA00ECF758 /* MyTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				5161507D1ED7FA1800ECF758 /* GradientViewController.swift */,
 				516150831ED80B2F00ECF758 /* SegmentedControl.swift */,
 				516150851ED81FC100ECF758 /* CustomTab.swift */,
+				516150871ED8370600ECF758 /* CGViewController.swift */,
+				516150891ED839EA00ECF758 /* MyTestView.swift */,
 			);
 			path = DermWritePractice;
 			sourceTree = "<group>";
@@ -180,10 +186,12 @@
 				5161507A1ED7DFA400ECF758 /* SearchViewController.swift in Sources */,
 				516150821ED7FD2A00ECF758 /* UIViewX.swift in Sources */,
 				516150781ED6FFD600ECF758 /* TransitionViewController.swift in Sources */,
+				516150881ED8370600ECF758 /* CGViewController.swift in Sources */,
 				510C52C11ED676240087F7C0 /* LayerViewController.swift in Sources */,
 				516150861ED81FC100ECF758 /* CustomTab.swift in Sources */,
 				510C52BF1ED3EB750087F7C0 /* DrawingView.swift in Sources */,
 				516150841ED80B2F00ECF758 /* SegmentedControl.swift in Sources */,
+				5161508A1ED839EA00ECF758 /* MyTestView.swift in Sources */,
 				510C52A91ED28EEC0087F7C0 /* AppDelegate.swift in Sources */,
 				510C52BD1ED2A9B50087F7C0 /* TableViewController.swift in Sources */,
 				5161507C1ED7EC1B00ECF758 /* SearchViewControllerOne.swift in Sources */,

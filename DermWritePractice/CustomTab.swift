@@ -74,7 +74,7 @@ import UIKit
         let newWidth = selectFrame.width / CGFloat(items.count)
         selectFrame.size.width = newWidth
         thumbView.frame = selectFrame
-        thumbBarImage.frame = CGRect(x: selectFrame.origin.x, y: selectFrame.size.height-10, width: selectFrame.size.width, height: 10)
+        thumbBarImage.frame = CGRect(x: selectFrame.origin.x, y: selectFrame.size.height-5, width: selectFrame.size.width, height: 5)
         thumbBarImage.backgroundColor = UIColor.white
         thumbBarImage.alpha = 0.5
         thumbView.addSubview(thumbBarImage)
