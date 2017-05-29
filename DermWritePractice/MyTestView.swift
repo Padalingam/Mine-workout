@@ -12,8 +12,21 @@ class MyTestView: UIView {
     override func draw(_ rect: CGRect) {
         //drawLine()
         //drawMultipleLines()
-        drawRect()
+        //drawRect()
+        drawEclipse()
     }
+    private func drawEclipse() {
+        let context = UIGraphicsGetCurrentContext()
+        //context?.move(to: CGPoint(x: 100, y: 100))
+        context?.addEllipse(in: CGRect(x: 100, y: 100, width: 100, height: 100))
+        context?.setLineCap(CGLineCap.butt)
+        context?.setLineWidth(5.0)
+        context?.setFillColor(UIColor.black.cgColor)
+        // context?.setShadow(offset: CGSize(width: 10, height: 10), blur: 0.5)
+        context?.setShadow(offset: CGSize(width: 10, height: 10), blur: 0.5, color: UIColor.red.cgColor)
+        context?.strokePath()
+    }
+
     private func drawRect() {
         let context = UIGraphicsGetCurrentContext()
         //context?.move(to: CGPoint(x: 100, y: 100))
